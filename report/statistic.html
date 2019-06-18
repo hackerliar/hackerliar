@@ -129,24 +129,35 @@ body, input {
   display: block;
   padding: 0.5rem 1rem;
 }
+
+div#jam {
+    color: #db2828;
+    font-size: large;
+    text-align: center;
+}
+
+label {
+	font-size: small;
+	color: #2185d0;
+}
 </style>
 </head>
 
 <body>
+
 <div class="container center">
   <div class="row">
-      <span class='hed'><strong>Lead Report <font style="color:#ea4335;">Adverten!</font></strong></span>
-	  <span class='dek'><strong><i>
-<script type="text/javascript">
-// 1 detik = 1000
-window.setTimeout("waktu()",1000);  
-function waktu() {   
-var tanggal = new Date();  
-setTimeout("waktu()",1000);  
-document.getElementById("jam").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds();
-}
-</script>
-<div id='jam'></div>
+      <span class='hed'></span>
+	  <span class='dek'></span>
+
+<div class="ui menu">
+  <div class="item">
+    <div class="ui icon input">
+<h3>Report <font style="color:#ea4335;">Adverten!</font></h3>
+    </div>
+	</div>
+  <div class="right item">
+    <div class="ui action input">
 <script language="JavaScript">
     var tanggallengkap = new String();
     var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
@@ -160,19 +171,35 @@ document.getElementById("jam").innerHTML = tanggal.getHours()+":"+tanggal.getMin
     var tahun = tgl.getFullYear();
     tanggallengkap = namahari[hari] + ", " +tanggal + " " + namabulan[bulan] + " " + tahun;
     </script>
-<script language='JavaScript'>document.write(tanggallengkap);</script></i></strong></span>
-			<ul class="breadcrumb">
-			    <li class="active">
+<label>HARI: <script language='JavaScript'>document.write(tanggallengkap);</script>
+<div><th><b>
+<script type="text/javascript">
+// 1 detik = 1000
+window.setTimeout("waktu()",1000);  
+function waktu() {   
+var tanggal = new Date();  
+setTimeout("waktu()",1000);  
+document.getElementById("jam").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds();
+}
+</script>
+<div id='jam'></div></div>
+    </div>
+  </div>
+</div>
+
+	<ul class="breadcrumb">
+	<li class="active">
 				<button class="ui black button">Today</button></li>
-				<li><a href="index.php">
+	<li><a href="index.php">
 				<button class="ui green button">Yesterday</button></a></li>
-				<li><a href="total.php">
+	<li><a href="total.php">
 				<button class="ui red button">Weekend</button></a></li>
+				
 <li><div class="ui compact menu">
 	<a class="item">
-	<i class="icon users"></i><div class="floating ui teal label">5</div>
-	</a>
-</div></li></ul>
+	<i class="icon users"></i><div class="floating ui teal label">5</div></a>
+</div></li>
+</ul>
 <table id="userlead" class="ui celled table responsive nowrap unstackable" style="width:100%">
     <div class="form-group">
   <div class="form-group input-group">
