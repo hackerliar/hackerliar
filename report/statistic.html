@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lead Statistic!</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+	<style type='text/css'>
+input{box-sizing:border-box;width:100%;padding:1em;border:.15em solid #808080;border-radius:.5em}.rg-source{margin:0;font-size:.75em;text-align:right}.rg-source .pre-colon{text-transform:uppercase}.rg-source .post-colon{font-weight:bold}::-webkit-input-placeholder{color:#808080;text-align:left}:-moz-placeholder{color:#808080;text-align:left}.mbuh{margin:1px;padding:1px 1px;border:0;box-sizing:border-box;border-bottom:0}.line{margin:3px;padding:3px 3px;border:0;border-bottom:1px dashed #ccc}b{font-size:12px}.gly-spin{-webkit-animation:spin 2s infinite linear;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;animation:spin 2s infinite linear}@-moz-keyframes spin{0%{-moz-transform:rotate(0deg)}100%{-moz-transform:rotate(359deg)}}@-webkit-keyframes spin{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg)}}@-o-keyframes spin{0%{-o-transform:rotate(0deg)}100%{-o-transform:rotate(359deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.gly-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg)}.gly-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}.gly-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg)}.gly-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);-webkit-transform:scale(-1,1);-moz-transform:scale(-1,1);-ms-transform:scale(-1,1);-o-transform:scale(-1,1);transform:scale(-1,1)}.gly-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);-webkit-transform:scale(1,-1);-moz-transform:scale(1,-1);-ms-transform:scale(1,-1);-o-transform:scale(1,-1);transform:scale(1,-1)}.anic{-webkit-animation:fade-in 2s linear infinite alternate;-moz-animation:fade-in 2s linear infinite alternate;animation:fade-in 2s linear infinite alternate}@-moz-keyframes fade-in{0%{opacity:0}65%{opacity:1}}@-webkit-keyframes fade-in{0%{opacity:0}65%{opacity:1}}@keyframes fade-in{0%{opacity:0}65%{opacity:1}}button{outline:none!important}button:focus{box-shadow:none;outline:0}button:active{outline:0}.table-fixed thead{width:100%}.table-fixed tbody{height:300px;overflow-y:auto;width:100%}.table-fixed thead,.table-fixed tbody,.table-fixed tr,.table-fixed td,.table-fixed th{display:block}.table-fixed tbody td,.table-fixed thead>tr>th{float:left;border-bottom-width:0}.gi-2x{font-size:1.3em}img{border:1px solid #ddd;border-radius:4px;padding:5px;width:150px}
+	</style>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <title>Lead Statistic!</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="lib/flags.css">
+	<link rel="stylesheet" href="report/lib/flags.css">
 	<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootswatch/3.4.1/cerulean/bootstrap.min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
 	<link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/dataTables.semanticui.min.css">
@@ -110,6 +122,13 @@ and (orientation:landscape){.center{width:100%}	}
 and (max-width:767px){.center{width:100%}	}
 @media (min-width:320px) 
 and (max-width:480px){.center{width:100%}	}
+
+body, input {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.5rem 1rem;
+}
 </style>
 </head>
 
@@ -117,6 +136,31 @@ and (max-width:480px){.center{width:100%}	}
 <div class="container center">
   <div class="row">
       <span class='hed'><strong>Lead Report <font style="color:#ea4335;">Adverten!</font></strong></span>
+	  <span class='dek'><strong><i>
+<script type="text/javascript">
+// 1 detik = 1000
+window.setTimeout("waktu()",1000);  
+function waktu() {   
+var tanggal = new Date();  
+setTimeout("waktu()",1000);  
+document.getElementById("jam").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds();
+}
+</script>
+<div id='jam'></div>
+<script language="JavaScript">
+    var tanggallengkap = new String();
+    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    var namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    var tgl = new Date();
+    var hari = tgl.getDay();
+    var tanggal = tgl.getDate();
+    var bulan = tgl.getMonth();
+    var tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " +tanggal + " " + namabulan[bulan] + " " + tahun;
+    </script>
+<script language='JavaScript'>document.write(tanggallengkap);</script></i></strong></span>
 			<ul class="breadcrumb">
 			    <li class="active">
 				<button class="ui black button">Today</button></li>
