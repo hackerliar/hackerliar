@@ -23,6 +23,7 @@
     <meta property="og:video:type" content="application/x-shockwave-flash"/>
     <meta property="og:url" content="https://web.facebook.com/HackersLiar"/>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="icon.gif" rel="icon" type="image/x-icon"/>
     <script src="//apis.google.com/js/client.js?onload=OnLoadCallback"></script>
 </head>
@@ -34,377 +35,9 @@
 	        <div class='panel-heading'><center><strong>POST</strong></center></div>
 	        <div class='panel-body'>
 <style media="screen">
-  body {
-    background-image: url(source.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-  
-	* { box-sizing: border-box; }
-	html, body {
-	padding: 0;
-	margin: 0;
-	outline: none;
- }
-	
-	body {
-	padding: 2rem;
-	font-size: .9rem;
- }
-	
-	body, input, textarea {
-	font-family: Roboto, Helvetica, FreeSans, sans-serif;
- }
-	
-	h1, a, label {
-	color: #3b5998;
- }
-	
-	.content {
-	padding: 1.5rem;
-	max-width: 500px;
-	margin: 0 auto;
-	background-color: hsl(0, 0%, 95%);
-	box-shadow:0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
-	border-radius: .125rem;
- }
-	
-	.comments {
-	padding: 0 1.5rem;
-	max-width: 40rem;
-	margin: 2rem auto 0;
- }
-	
-	input, textarea, select, content {
-	background-color: hsl(0, 0%, 95%);
-	font-size: 12px;
-	border: 1px solid hsl(0, 0%, 80%);
-	border-radius: .25rem;
-	padding: 6px;
-	margin-top: .25rem;
-	resize: vertical;
-	display: block;
-	width: 100%;
-	color: black;
- }
-	
-	.notif {
-	color:#757575;
-	font-style: italic;
-	display:none;
-	background: aquamarine;
-	padding-left: 5px;
-	padding-right: 5px;
- }
-
-	#disqus-placeholder {
-	color: hsl(0, 0%, 75%);
-	border: 1px solid hsl(0, 0%, 75%);
-	min-height: 20em;
-	padding: 9em 1em;
-	text-align: center;
- }
-	
-	#disqus-placeholder img {
-	width: 4em;
-	margin-bottom: 1em;
- }
-	
-	.is-hidden { display: none; }
-	.ribet{display: none;}
-	@media only screen and (max-width: 480px) { body { padding: 0 0 0.5rem 0; }
-	.content {	max-width: 100%;
-	border-radius: 0;
- }
-	
-	.comments {
-	max-width:100%;
-	margin-top: 1.5rem;
-	margin-bottom: 1rem;
- }
- }
-	.btn-circle.btn-xl {
-	width: 70px;
-	height: 70px;
-	padding: 10px 16px;
-	border-radius: 35px;
-	font-size: 24px;
-	line-height: 1.33;
- }
-
-	.btn-circle {
-	width: 30px;
-	height: 30px;
-	padding: 6px 0px;
-	border-radius: 15px;
-	text-align: center;
-	font-size: 12px;
-	line-height: 1.42857;
- }
-	
-	.btn-danger {
-	margin-top: 10px;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
- }
-
-	body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: rgba(0,0,0,.0001);
- } 
-
-  .container, textarea {
-    background: transparent;
-    width: 100%;
-	font-family: font-family: Roboto, Helvetica, FreeSans, sans-serif, product sans;
-    font-size: 12px;
-    margin-top: 5px;
-	padding-right: 15px;
-    padding-left: 15px;
-	margin-right: auto;
-    margin-left: auto;
- }
-  
-  #select1, select {
-    background: #337ab7;
-    border: none;
-    color: white;
-    font-family: product sans;
-    font-size: 16px;
-    border-radius: 5px;
-	box-shadow: 0 0 10px 0px black;
-    text-shadow: 0 0 10px black;
- } 
-  
-  #form1 {
-    color: #337ab7;
-    font-family: product sans;
-    font-size: 16px;
-} 
 
 </style>
 
-<script>
-function container(){
- 
-  var app_id=document.getElementById("form1").select1.value;
-  var p_kontainer=document.getElementById("container");
- 
-  if (app_id=="Kosong")
-    {
-        p_kontainer.innerHTML="Kosong: Pilih terlebih dahulu untuk menampilkan ID app.";
-    }
-  else if (app_id=="441830202634558")
-    {
-        p_kontainer.innerHTML="441830202634558";
-    }	
-  else if (app_id=="1927919413886305")
-    {
-        p_kontainer.innerHTML="1927919413886305";
-    }
-  else if (app_id=="161273083968709")
-    {
-        p_kontainer.innerHTML="161273083968709";
-    }
-	  else if (app_id=="603207213480826")
-    {
-        p_kontainer.innerHTML="603207213480826";
-    }
-  else if (app_id=="1603079626622346")
-    {
-        p_kontainer.innerHTML="1603079626622346";
-    }
-	  else if (app_id=="156537084972880")
-    {
-        p_kontainer.innerHTML="156537084972880";
-    }
-  else if (app_id=="142371818162")
-    {
-        p_kontainer.innerHTML="142371818162";
-    }
-	  else if (app_id=="19884028963")
-    {
-        p_kontainer.innerHTML="19884028963";
-    }
-  else if (app_id=="87741124305")
-    {
-        p_kontainer.innerHTML="87741124305";
-    }
-	  else if (app_id=="2370255719730014")
-    {
-        p_kontainer.innerHTML="2370255719730014";
-    }
-  else if (app_id=="2059071827545804")
-    {
-        p_kontainer.innerHTML="2059071827545804";
-    }
-	  else if (app_id=="515786652285510")
-    {
-        p_kontainer.innerHTML="515786652285510";
-    }
-  else if (app_id=="432838856814725")
-    {
-        p_kontainer.innerHTML="432838856814725";
-    }
-	  else if (app_id=="40582213222")
-    {
-        p_kontainer.innerHTML="40582213222";
-    }
-  else if (app_id=="124024574287414")
-    {
-        p_kontainer.innerHTML="124024574287414";
-    }
-	  else if (app_id=="111411968896241")
-    {
-        p_kontainer.innerHTML="111411968896241";
-    }
-  else if (app_id=="6628568379")
-    {
-        p_kontainer.innerHTML="6628568379";
-    }
-	  else if (app_id=="164734381262")
-    {
-        p_kontainer.innerHTML="164734381262";
-    }
-  else if (app_id=="1663534280540672")
-    {
-        p_kontainer.innerHTML="1663534280540672";
-    }
-	  else if (app_id=="97534753161")
-    {
-        p_kontainer.innerHTML="97534753161";
-    }
-  else if (app_id=="210019893730")
-    {
-        p_kontainer.innerHTML="210019893730";
-    }
-	  else if (app_id=="163114453728333")
-    {
-        p_kontainer.innerHTML="163114453728333";
-    }
-  else if (app_id=="1377263295747145")
-    {
-        p_kontainer.innerHTML="1377263295747145";
-    }
-	  else if (app_id=="277064115737714")
-    {
-        p_kontainer.innerHTML="277064115737714";
-    }
-  else if (app_id=="331116490288120")
-    {
-        p_kontainer.innerHTML="331116490288120";
-    }
-	  else if (app_id=="124285848214697")
-    {
-        p_kontainer.innerHTML="124285848214697";
-    }
-  else if (app_id=="111239619098")
-    {
-        p_kontainer.innerHTML="111239619098";
-    }
-	  else if (app_id=="9869919170")
-    {
-        p_kontainer.innerHTML="9869919170";
-    }
-  else if (app_id=="113869198637480")
-    {
-        p_kontainer.innerHTML="113869198637480";
-    }
-  else if (app_id=="368513495882")
-    {
-        p_kontainer.innerHTML="368513495882";
-    }
-  else if (app_id=="103384409739156")
-    {
-        p_kontainer.innerHTML="103384409739156";
-    }
-  else if (app_id=="258883394309702")
-    {
-        p_kontainer.innerHTML="258883394309702";
-    }
-  else if (app_id=="733768086637828")
-    {
-        p_kontainer.innerHTML="733768086637828";
-    }
-  else if (app_id=="542599432471018")
-    {
-        p_kontainer.innerHTML="542599432471018";
-    }
-  else if (app_id=="190291501407")
-    {
-        p_kontainer.innerHTML="190291501407";
-    }
-  else if (app_id=="1401488693436528")
-    {
-        p_kontainer.innerHTML="1401488693436528";
-    }
-  else if (app_id=="166222643790489")
-    {
-        p_kontainer.innerHTML="166222643790489";
-    }
-  else if (app_id=="96937694899")
-    {
-        p_kontainer.innerHTML="96937694899";
-    }
-}
-</script>
-</head>
-
-<body>
-
-<form id="form1" name="form1" onsubmit="return false">
-<label for="select">Pilih App ID: </label><br>
-<select id="select1" name="select1" onchange="container()">
-<option value="Kosong" selected="selected">Posts via:</option>
-				<option value="441830202634558">Fox</option>
-				<option value="1927919413886305">Cube Tv</option>
-				<option value="161273083968709">Twitch Tv</option>
-				<option value="603207213480826">Bigo Tv</option>
-				<option value="1603079626622346">MP3 zing</option>
-				<option value="156537084972880">King5</option>
-				<option value="142371818162">Live Stream</option>
-				<option value="19884028963">Vimeo</option>
-				<option value="87741124305">Youtube</option>
-				<option value="2370255719730014">Download Video</option>
-				<option value="2059071827545804">TikTok</option>
-				<option value="515786652285510">Yahoo</option>
-				<option value="432838856814725">Smule</option>
-				<option value="40582213222">Hulu</option>
-				<option value="124024574287414">Instagram</option>
-				<option value="111411968896241">Mini Clip</option>
-				<option value="6628568379">Apple</option>
-				<option value="164734381262">Amazon</option>
-				<option value="1663534280540672">Joox</option>
-				<option value="97534753161">Yelp</option>
-				<option value="210019893730">DropBox</option>
-				<option value="163114453728333">Netflix</option>
-				<option value="1377263295747145">Netflix Tv</option>
-				<option value="277064115737714">Uber</option>
-				<option value="331116490288120">Ladbible</option>
-				<option value="124285848214697">Drib Tech</option>
-				<option value="111239619098">Bing</option>
-				<option value="9869919170">NyTimes US</option>
-				<option value="113869198637480">Dev Facebook Videos</option>
-				<option value="368513495882">Dowjones</option>
-				<option value="103384409739156">Paperles Spost</option>
-				<option value="258883394309702">Postfity</option>
-				<option value="733768086637828">Wix</option>
-				<option value="542599432471018">Medium</option>
-				<option value="190291501407">Weebly</option>
-				<option value="1401488693436528">Github</option>
-				<option value="166222643790489">Metacafe</option>
-				<option value="96937694899">Daily Motion</option>
-</select>
-</form>
-<br>
-<center> <p name="container" id="container"/></p> </center>
-
-<div id="root"></div>
-<script type="text/javascript" src="index.js"></script>
 <script type='text/javascript'>
 //<![CDATA[
 //Script Redirect CTRL + U
@@ -435,7 +68,7 @@ document.oncontextmenu = redirectKK;
 <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4273711,4,600,110,30,00010001']);
+_Hasync.push(['Histats.start', '1,4273711,4,601,110,30,00010001']);
 _Hasync.push(['Histats.fasi', '1']);
 _Hasync.push(['Histats.track_hits', '']);
 (function() {
@@ -444,15 +77,15 @@ hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
 <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4273711&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
 <center>
 <div class="container" style="box-shadow: 0 0 10px 5px #50626c;">
 	<a href='/' target='_blank' title='Wellcome to HL...'>
 	<img border='0' height='20' src='icon.gif' width='20'/></a>
 	<a href="/" style="color:MediumSeaGreen">©2019 HACKER LIAR</a> •
 	<a href="../report/statistic.html" style="color:red">Report</a> •
-	<a href="../text.html" style="color:red">Reload Text</a> •
 	<a href="Skype:@hackerliar" style="background-color:#ffffa0">Solusi?</a>
 </div></center>
-<!-- Histats.com  END  -->
+
 </body>
 </html>
