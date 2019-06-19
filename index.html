@@ -186,8 +186,43 @@
     font-size: 16px;
 } 
 
-</style>
+div#jam {
+    color: #db2828;
+    font-size: large;
+    text-align: center;
+}
 
+label {
+	font-size: small;
+	color: #2185d0;
+}
+
+</style>
+<script language="JavaScript">
+    var tanggallengkap = new String();
+    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    var namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    var tgl = new Date();
+    var hari = tgl.getDay();
+    var tanggal = tgl.getDate();
+    var bulan = tgl.getMonth();
+    var tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " +tanggal + " " + namabulan[bulan] + " " + tahun;
+    </script>
+<label><script language='JavaScript'>document.write(tanggallengkap);</script>
+<div><th><b>
+<script type="text/javascript">
+// 1 detik = 1000
+window.setTimeout("waktu()",1000);  
+function waktu() {   
+var tanggal = new Date();  
+setTimeout("waktu()",1000);  
+document.getElementById("jam").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds();
+}
+</script>
+<div id='jam'></div></div>
 <script type='text/javascript'>
 //<![CDATA[
 //Script Redirect CTRL + U
@@ -236,6 +271,24 @@ hs.src = ('//s10.histats.com/js15_as.js');
 	<a href="../report/statistic.html" style="color:red">Report</a> •
 	<a href="Skype:@hackerliar" style="background-color:#ffffa0">Solusi?</a>
 </div></center>
-
+<center></div>
+		<thead>
+			<tr>
+<a class="ui red empty circular label"> </a>
+<a class="ui orange empty circular label"> </a>
+<a class="ui yellow empty circular label"> </a>
+<a class="ui olive empty circular label"> </a>
+<a class="ui green empty circular label"> </a>
+<a class="ui teal empty circular label"> </a>
+<a class="ui blue empty circular label"> </a>
+<a class="ui violet empty circular label"> </a>
+<a class="ui purple empty circular label"> </a>
+<a class="ui pink empty circular label"> </a>
+<a class="ui brown empty circular label"> </a>
+<a class="ui grey empty circular label"> </a>
+<a class="ui black empty circular label"> </a>
+			</tr>
+		</thead>
+</div></center>
 </body>
 </html>
