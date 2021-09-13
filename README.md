@@ -1,8 +1,10 @@
 # Hackerliar.com
 Error 404 - Page Not Found
 
+![image](https://user-images.githubusercontent.com/46444347/133096830-d9a1d2e8-a2fe-45de-9006-beadff690de7.png)
+
 # Template
-/Index.html Of Website communinty blog.
+/Index.html Of Website community blog.
 
 ## Kalimat Pertama
 Themes 404 ..... pegel nulis.
