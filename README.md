@@ -1,5 +1,13 @@
 # Wellcome To My Github Profile.
 
+<p align=left> <img src=https://komarev.com/ghpvc/?username=hackerliar alt=hackerliar.me /> </p>
+
+## Kalimat Pertama
+404 ..... pegel nulis.
+
+[![Github stats](https://github-readme-stats.vercel.app/api?username=hackerliar&show_icons=true&theme=white&include_all_commits=true)](https://github.com/hackerliar/hackerliar)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hackerliar&layout=compact&theme=white)](https://github.com/hackerliar/hackerliar)
+
 - Update New upload on Github from Hackerliar.
 
 <div align="center" style="margin-top: 2%;">
@@ -14,9 +22,6 @@
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## Kalimat Pertama
-404 ..... pegel nulis.
 
 ## _Error 404 - Page Not Found_
 
