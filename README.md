@@ -23,7 +23,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## _Error 404 - Page Not Found_
+## <p align="center">_Error 404 - Page Not Found_
 
 The website HackerLiar is an annual world wide programming competition where hackers compete against each other for fame, want to compete? Join the site [COMMUNITY HACKERLIAR](https://hackerliar.github.io/hackerliar/) immediately to become a member of the hacker...!!!
 <p align="center">
