@@ -1,8 +1,8 @@
 # Wellcome To My Github Profile.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+- Update New upload on Github from Hackerliar
 
-# _Error 404 - Page Not Found_
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div align="center" style="margin-top: 2%;">
   <a href="https://www.youtube.com/@HackerLiar?sub_confirmation=1"><img width="6.5%" height="6.5%" style="background: linear-gradient(to right, #009BFF, #5ABEFF); border-radius: 3px;" src="https://upload.wikimedia.org/wikipedia/commons/3/36/YouTube_font_awesome.svg"></a>
@@ -18,9 +18,9 @@
 ## Kalimat Pertama
 404 ..... pegel nulis.
 
-## New uploads on Github from Hackerliar
+## _Error 404 - Page Not Found_
 
 The website HackerLiar is an annual world wide programming competition where hackers compete against each other for fame, want to compete? Join the site COMMUNITY HACKERLIAR immediately to become a member of the hacker...!!!
 <p align="center">
    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true"/>
-</p> 
+</p>
