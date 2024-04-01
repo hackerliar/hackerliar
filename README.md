@@ -5,7 +5,6 @@
 ## Kalimat Pertama
 
 - Update New upload on Github from Hackerliar.
-    - [x] Error 404 - Page Not Found
     - [x] Tools Facebook.
     - [x] Tools Instagram.
     - [x] Tools Generate links.	
@@ -16,10 +15,16 @@
     - [x] Index (Landing Page) affiliate.
     - [x] Facebook UIDs Record.
     - [x] Facebook UID Scraper.
-- New Update
-    - [ ] Pro Creator.
-    - [ ] Multi Pro Tools.
-
+    - [x] [JavaScript Data](https://gist.github.com/hackerliar).
+- New Update.
+    - [ ] [Facebook Crack](https://github.com/hackerliar/FBCrack).
+    - [ ] [Instagram Crack](https://github.com/hackerliar/IGCrack).
+- Not published (Private).
+    - [ ] [Tools Hacking](https://github.com/hackerliar/ToolsHacking).
+    - [ ] [Multi Pro Tools](https://github.com/hackerliar/ProTools).
+    - [ ] [Tools Meta](https://github.com/hackerliar/ToolsMeta).
+    - [ ] [Pro Creator](https://github.com/hackerliar/ProCreator).
+	
 404 ..... pegel nulis.
 
 [![Github stats](https://github-readme-stats.vercel.app/api?username=hackerliar&show_icons=true&theme=white&include_all_commits=true)](https://github.com/hackerliar/hackerliar)
