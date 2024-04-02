@@ -28,7 +28,6 @@
 404 ..... pegel nulis.
 <p align=left> <img src=https://komarev.com/ghpvc/?username=hackerliar alt=hackerliar.me /> </p>
 
-[![Github stats](https://github-readme-stats.vercel.app/api?username=hackerliar&show_icons=true&theme=white&include_all_commits=true)](https://github.com/hackerliar/hackerliar)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hackerliar&layout=compact&theme=white)](https://github.com/hackerliar/hackerliar)
 
 <div align="center" style="margin-top: 2%;">
