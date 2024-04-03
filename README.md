@@ -51,6 +51,10 @@ The website HackerLiar is an annual world wide programming competition where hac
 
 [![hackerliar](https://github-readme-stats.vercel.app/api/top-langs/?username=hackerliar&layout=compact&theme=chartreuse-dark&card_width=1000)](https://github.com/hackerliar)
 
+<p align="center">
+   <img src="https://raw.githubusercontent.com/hackerliar/hackerliar/master/icon.gif"/>
+</p>
+
 ## <p align="center">_Error 404 - Page Not Found_
 
 <div align="center" style="margin-top: 2%;">
