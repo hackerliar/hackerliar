@@ -47,9 +47,10 @@
 The website HackerLiar is an annual world wide programming competition where hackers compete against each other for fame, want to compete? Join the site <a href="https://hackerliar.github.io/hackerliar/"  target="_blank" >COMMUNITY HACKERLIAR</a> immediately to become a member of the hacker...!!!
 </details>
 
-[![hackerliar](https://github-readme-stats.vercel.app/api/?username=hackerliar&rank_icon=github&theme=chartreuse-dark&show_icons=true&include_all_commits=true&card_width=1000)](https://github.com/hackerliar/hackerliar)
-
-[![hackerliar](https://github-readme-stats.vercel.app/api/top-langs/?username=hackerliar&layout=compact&theme=chartreuse-dark&card_width=1000)](https://github.com/hackerliar)
+<p align="center">
+  <img max-width="100%" height="auto" src="https://github-readme-stats.vercel.app/api/?username=hackerliar&rank_icon=github&theme=chartreuse-dark&show_icons=true&include_all_commits=true">
+  <img max-width="100%" height="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerliar&layout=compact&theme=chartreuse-dark">
+</p>
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/hackerliar/hackerliar/master/icon.gif"/>
